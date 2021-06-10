@@ -26,6 +26,9 @@
 </div>
 
 <script>
+  function goback() {
+  window.history.back()
+  }
 var id = null;
 function myMove() {
   var elem = document.getElementById("myAnimation");   
@@ -43,7 +46,7 @@ function myMove() {
   }
 }
 </script>
-
+<input type="button" value="Back" onclick="goback()">
 </body>
 </html>
 
